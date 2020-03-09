@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="enter id"
+        android:textSize="20dp"></EditText>
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="enter name"
+        android:textSize="20dp"></EditText>
+
+    <EditText
+        android:id="@+id/edtMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter number"
+        android:text=""
+        android:textSize="20dp"></EditText>
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="enter address"
+        android:text=""
+        android:textSize="20dp"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="cancel"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"/>
+
+
+
+
+        <Button
+            android:id="@+id/updateData"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="confirm uodate"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
